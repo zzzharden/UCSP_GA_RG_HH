@@ -1,11 +1,6 @@
 import copy
-
 import time
 from collections import defaultdict
-
-import numpy as np
-
-from generate_initial_solution import schedule_courses
 from fig_gtt import *
 import random
 from data_loader import data, data1, data2
