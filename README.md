@@ -19,8 +19,8 @@ The goal is to reduce teacher workload, alleviate student learning burdens, and 
 ## Algorithm Description
 The proposed GA_RG_HH algorithm combines genetic algorithms (GA) with greedy strategies to balance exploration and exploitation:
 
-- **High-level heuristic**: Genetic algorithm (GA) for global search, including operations like tournament selection and two-point crossover.
-- **Low-level heuristics**: A set of 10 operators (4 random operators, 5 greedy operators, and 1 invalid operator) for local optimization.
+- **High-level heuristic**: Genetic algorithms are used to find the optimal combination of operators in the current environment, including operations like tournament selection and two-point crossover.
+- **Low-level heuristics**: A set of 10 operators (4 random operators, 5 greedy operators, and 1 invalid operator) is used to change and perturb the current solution in order to find a better solution..
 - **Key features**:
   - Dynamic adjustment of operator sequence length to balance exploration/exploitation
   - Pre-check strategy to ensure constraint satisfaction
